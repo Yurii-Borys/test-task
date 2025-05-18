@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "shortDescription": "New website launched",
+    "fullDescription": "We are excited to announce the launch of our new company website with improved navigation and design.",
+    "date": "2025-05-18"
+  },
+  {
+    "id": 2,
+    "shortDescription": "Product update released",
+    "fullDescription": "Version 2.0 of our product is now available, offering improved performance and new features.",
+    "date": "2025-05-17"
+  },
+  {
+    "id": 3,
+    "shortDescription": "Hiring Frontend Developer",
+    "fullDescription": "We're looking for a skilled frontend developer with experience in Vue and Nuxt to join our team.",
+    "date": "2025-05-15"
+  },
+  {
+    "id": 4,
+    "shortDescription": "Company reaches 10,000 users",
+    "fullDescription": "We're thrilled to announce that our platform now has over 10,000 active users!",
+    "date": "2025-05-13"
+  },
+  {
+    "id": 5,
+    "shortDescription": "Maintenance scheduled",
+    "fullDescription": "The system will be down for maintenance on May 20th from 2 AM to 4 AM UTC.",
+    "date": "2025-05-12"
+  },
+  {
+    "id": 6,
+    "shortDescription": "Security update",
+    "fullDescription": "We\u2019ve released a critical security patch. Please update your systems immediately.",
+    "date": "2025-05-10"
+  },
+  {
+    "id": 7,
+    "shortDescription": "New blog post: UX Tips",
+    "fullDescription": "Check out our latest blog post featuring 7 UX tips to boost user engagement.",
+    "date": "2025-05-09"
+  },
+  {
+    "id": 8,
+    "shortDescription": "Partnership announcement",
+    "fullDescription": "We are partnering with DevTools Inc. to bring better tools to our users.",
+    "date": "2025-05-08"
+  },
+  {
+    "id": 9,
+    "shortDescription": "Live webinar next week",
+    "fullDescription": "Join us for a live Q&A webinar on the new features in our latest release.",
+    "date": "2025-05-06"
+  },
+  {
+    "id": 10,
+    "shortDescription": "Customer success story",
+    "fullDescription": "Read how one of our clients doubled productivity using our platform.",
+    "date": "2025-05-05"
+  }
+]

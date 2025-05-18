@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "newsId": 1,
+    "comment": "Great to see the new site, looks much better!",
+    "author": "Alice",
+    "date": "2025-05-18"
+  },
+  {
+    "id": 2,
+    "newsId": 2,
+    "comment": "Looking forward to trying the new features.",
+    "author": "Bob",
+    "date": "2025-05-17"
+  },
+  {
+    "id": 3,
+    "newsId": 3,
+    "comment": "Is the position remote-friendly?",
+    "author": "Carlos",
+    "date": "2025-05-16"
+  },
+  {
+    "id": 4,
+    "newsId": 4,
+    "comment": "Congrats on 10k users!",
+    "author": "Dana",
+    "date": "2025-05-13"
+  },
+  {
+    "id": 5,
+    "newsId": 5,
+    "comment": "Thanks for the heads up on the maintenance.",
+    "author": "Eli",
+    "date": "2025-05-12"
+  },
+  {
+    "id": 6,
+    "newsId": 6,
+    "comment": "Just updated \u2014 thanks for the quick patch.",
+    "author": "Fiona",
+    "date": "2025-05-10"
+  },
+  {
+    "id": 7,
+    "newsId": 7,
+    "comment": "Helpful article, I\u2019ll share it with the team.",
+    "author": "George",
+    "date": "2025-05-09"
+  },
+  {
+    "id": 8,
+    "newsId": 8,
+    "comment": "Excited about the new partnership!",
+    "author": "Hanna",
+    "date": "2025-05-08"
+  },
+  {
+    "id": 9,
+    "newsId": 9,
+    "comment": "Will the webinar be recorded?",
+    "author": "Ivan",
+    "date": "2025-05-06"
+  },
+  {
+    "id": 10,
+    "newsId": 10,
+    "comment": "Amazing results \u2014 well done to your team.",
+    "author": "Julia",
+    "date": "2025-05-05"
+  }
+]
