@@ -1,10 +1,16 @@
+// nuxt.config.ts
 import { defineNuxtConfig } from 'nuxt/config'
-import type { NuxtConfig } from 'nuxt/schema'
+import tsconfigPaths from 'vite-tsconfig-paths'
 
 export default defineNuxtConfig({
   modules: ['@pinia/nuxt'],
-  css: ['bootstrap/dist/css/bootstrap.min.css']
-} as NuxtConfig)
+  css: ['bootstrap/dist/css/bootstrap.min.css'],
+  vite: {
+    plugins: [tsconfigPaths()]
+  }
+})
+
+
 
 
 
