@@ -1,6 +1,7 @@
 <script setup lang="ts">
-import { ref, computed, onMounted, watch } from 'vue';
-import NewsCard from '@/components/NewsCard.vue';
+import { ref, computed, watch } from 'vue';
+import Spinner from '@/components/Spinner.vue';
+
 import { useNewsStore } from '@/stores/news';
 
 import type { INewsItem } from '@/models/NewsType';
@@ -8,6 +9,7 @@ import type { INewsItem } from '@/models/NewsType';
 const newsStore = useNewsStore();
 const searchTerm = ref('');
 const debouncedSearchTerm = ref('');
+const isLoading = ref(true); // <- додаємо
 
 let debounceTimeout: ReturnType<typeof setTimeout>;
 
@@ -19,7 +21,9 @@ watch(searchTerm, (val) => {
 });
 
 onMounted(async () => {
+  isLoading.value = true;
   await newsStore.FETCH_ALL_NEWS();
+  isLoading.value = false;
 });
 
 const filteredNews = computed<INewsItem[]>(() => {
@@ -36,15 +40,19 @@ const filteredNews = computed<INewsItem[]>(() => {
 
 <template>
   <div class="container py-4">
-    <input
-      v-model="searchTerm"
-      type="text"
-      placeholder="Search news by title or description"
-      class="form-control mb-4"
-    />
+    <Spinner v-if="isLoading" />
 
-    <div class="row gy-3">
-      <NewsCard v-for="item in filteredNews" :key="item.id" :item="item" />
-    </div>
+    <template v-else>
+      <input
+        v-model="searchTerm"
+        type="text"
+        placeholder="Search news by title or description"
+        class="form-control mb-4"
+      />
+
+      <div class="row gy-3">
+        <NewsCard v-for="item in filteredNews" :key="item.id" :item="item" />
+      </div>
+    </template>
   </div>
 </template>

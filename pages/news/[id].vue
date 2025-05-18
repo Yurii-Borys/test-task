@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { onMounted, onUnmounted, computed } from 'vue';
+import { computed } from 'vue';
 import { useRoute } from 'vue-router';
 import { useNewsStore } from '@/stores/news';
 import { useCommentsStore } from '@/stores/comments';

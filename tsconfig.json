@@ -3,7 +3,9 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./*"]
+      "@/*": ["./*"],
+      "#app": ["./.nuxt/imports"],
+      "#app/*": ["./.nuxt/imports/*"]
     },
     "moduleResolution": "node",
     "module": "esnext",

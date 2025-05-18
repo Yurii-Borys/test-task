@@ -11,14 +11,9 @@ export const useCommentsStore = defineStore('comments', {
     // Fetch all comments from API endpoint
     async FETCH_ALL_COMMENTS() {
       try {
-        const { data, error } = await useFetch<ICommentItem[]>('/api/comments');
+        const data = await $fetch<ICommentItem[]>('/api/comments');
 
-        if (error.value) {
-          console.error('Failed to fetch comments:', error.value);
-          throw new Error('Failed to fetch comments');
-        }
-
-        this.comments = data.value ?? [];
+        this.comments = data ?? [];
         console.log('Comments successfully loaded');
       } catch (err) {
         console.error('Error in FETCH_ALL_COMMENTS:', err);

@@ -1,4 +1,3 @@
-// stores/news.ts
 import { defineStore } from 'pinia';
 import type { INewsItem } from '@/models/NewsType';
 
