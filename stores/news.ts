@@ -1,25 +1,20 @@
 // stores/news.ts
 import { defineStore } from 'pinia';
-
-interface NewsItem {
-  id: number;
-  shortDescription: string;
-  fullDescription: string;
-  date: string;
-}
+import type { INewsItem } from '@/models/NewsType';
 
 export const useNewsStore = defineStore('news', {
   state: () => ({
-    news: [] as NewsItem[],
+    news: [] as INewsItem[],
   }),
 
   actions: {
     async FETCH_ALL_NEWS() {
       try {
-        const data = await $fetch('/api/news');
-        console.log('Raw data from API:', data); // <-- додай цей лог
+        const data = await $fetch('/api/news', {
+          params: { t: Date.now() },
+        });
         this.news = data;
-        console.log(`News loaded successfully: ${this.news.length} items`);
+        console.log('News loaded successfully');
       } catch (error) {
         console.error('Failed to load news:', error);
       }

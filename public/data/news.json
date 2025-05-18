@@ -1,62 +1,72 @@
 [
   {
     "id": 1,
+    "title": "Launch of New Website",
     "shortDescription": "New website launched",
-    "fullDescription": "We are excited to announce the launch of our new company website with improved navigation and design.",
-    "date": "2025-05-18"
+    "fullDescription": "We are excited to announce the launch of our brand new company website. The new site features a modern design, improved navigation, faster load times, and mobile responsiveness, providing a much better user experience. We invite you to explore all the new content and features we have built.",
+    "date": 1747660800000
   },
   {
     "id": 2,
+    "title": "Product Version 2.0 Released",
     "shortDescription": "Product update released",
-    "fullDescription": "Version 2.0 of our product is now available, offering improved performance and new features.",
-    "date": "2025-05-17"
+    "fullDescription": "Version 2.0 of our product is now officially available. This update includes enhanced performance optimizations, bug fixes, and exciting new features such as user dashboards, integration with third-party tools, and improved security protocols to ensure data privacy and protection.",
+    "date": 1747574400000
   },
   {
     "id": 3,
+    "title": "Hiring Frontend Developer",
     "shortDescription": "Hiring Frontend Developer",
-    "fullDescription": "We're looking for a skilled frontend developer with experience in Vue and Nuxt to join our team.",
-    "date": "2025-05-15"
+    "fullDescription": "We are currently seeking a talented frontend developer to join our dynamic team. The ideal candidate will have strong experience with Vue.js and Nuxt.js frameworks, a passion for creating intuitive UI/UX designs, and the ability to work collaboratively in an agile environment. Apply now to be part of our innovative projects.",
+    "date": 1747315200000
   },
   {
     "id": 4,
+    "title": "Milestone: 10,000 Active Users",
     "shortDescription": "Company reaches 10,000 users",
-    "fullDescription": "We're thrilled to announce that our platform now has over 10,000 active users!",
-    "date": "2025-05-13"
+    "fullDescription": "We are thrilled to announce that our platform has reached a major milestone of 10,000 active users. This achievement reflects the trust and support from our community, and we remain committed to providing high-quality services and continuous improvements to meet your needs.",
+    "date": 1747142400000
   },
   {
     "id": 5,
+    "title": "Scheduled System Maintenance",
     "shortDescription": "Maintenance scheduled",
-    "fullDescription": "The system will be down for maintenance on May 20th from 2 AM to 4 AM UTC.",
-    "date": "2025-05-12"
+    "fullDescription": "Please be advised that our system will undergo scheduled maintenance on May 20th from 2 AM to 4 AM UTC. During this time, the platform will be temporarily unavailable. We apologize for any inconvenience and appreciate your understanding as we work to improve system stability and performance.",
+    "date": 1746979200000
   },
   {
     "id": 6,
+    "title": "Critical Security Update Released",
     "shortDescription": "Security update",
-    "fullDescription": "We\u2019ve released a critical security patch. Please update your systems immediately.",
-    "date": "2025-05-10"
+    "fullDescription": "A critical security patch has been released addressing several vulnerabilities that could potentially impact your data security. We urge all users to update their systems immediately to protect against unauthorized access and ensure the integrity of your information.",
+    "date": 1746700800000
   },
   {
     "id": 7,
+    "title": "New Blog Post: UX Tips to Boost Engagement",
     "shortDescription": "New blog post: UX Tips",
-    "fullDescription": "Check out our latest blog post featuring 7 UX tips to boost user engagement.",
-    "date": "2025-05-09"
+    "fullDescription": "Our latest blog post dives into 7 essential UX tips that can help increase user engagement on your digital platforms. From simplifying navigation to optimizing load speeds, these actionable insights will assist designers and developers in creating more user-friendly experiences.",
+    "date": 1746614400000
   },
   {
     "id": 8,
+    "title": "Partnership with DevTools Inc.",
     "shortDescription": "Partnership announcement",
-    "fullDescription": "We are partnering with DevTools Inc. to bring better tools to our users.",
-    "date": "2025-05-08"
+    "fullDescription": "We are proud to announce our new partnership with DevTools Inc., a leader in development tools and technologies. This collaboration aims to integrate their cutting-edge tools into our platform, enhancing functionality and providing better resources for our users and developers alike.",
+    "date": 1746528000000
   },
   {
     "id": 9,
+    "title": "Live Q&A Webinar Scheduled",
     "shortDescription": "Live webinar next week",
-    "fullDescription": "Join us for a live Q&A webinar on the new features in our latest release.",
-    "date": "2025-05-06"
+    "fullDescription": "Join us for a live Q&A webinar next week where we will showcase the latest features introduced in our recent product release. This interactive session will provide you with an opportunity to ask questions directly to our product team and learn how to maximize the benefits of the new updates.",
+    "date": 1746355200000
   },
   {
     "id": 10,
+    "title": "Customer Success Story: Doubling Productivity",
     "shortDescription": "Customer success story",
-    "fullDescription": "Read how one of our clients doubled productivity using our platform.",
-    "date": "2025-05-05"
+    "fullDescription": "Discover how one of our valued clients was able to double their productivity using our platform. This success story highlights the challenges faced, the solutions implemented with our tools, and the measurable results achieved, showcasing the real-world impact of our technology.",
+    "date": 1746268800000
   }
 ]

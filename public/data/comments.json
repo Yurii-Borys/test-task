@@ -4,69 +4,69 @@
     "newsId": 1,
     "comment": "Great to see the new site, looks much better!",
     "author": "Alice",
-    "date": "2025-05-18"
+    "date": 1747660800000
   },
   {
     "id": 2,
     "newsId": 2,
     "comment": "Looking forward to trying the new features.",
     "author": "Bob",
-    "date": "2025-05-17"
+    "date": 1747574400000
   },
   {
     "id": 3,
     "newsId": 3,
     "comment": "Is the position remote-friendly?",
     "author": "Carlos",
-    "date": "2025-05-16"
+    "date": 1747488000000
   },
   {
     "id": 4,
     "newsId": 4,
     "comment": "Congrats on 10k users!",
     "author": "Dana",
-    "date": "2025-05-13"
+    "date": 1747142400000
   },
   {
     "id": 5,
     "newsId": 5,
     "comment": "Thanks for the heads up on the maintenance.",
     "author": "Eli",
-    "date": "2025-05-12"
+    "date": 1747056000000
   },
   {
     "id": 6,
     "newsId": 6,
-    "comment": "Just updated \u2014 thanks for the quick patch.",
+    "comment": "Just updated — thanks for the quick patch.",
     "author": "Fiona",
-    "date": "2025-05-10"
+    "date": 1746700800000
   },
   {
     "id": 7,
     "newsId": 7,
-    "comment": "Helpful article, I\u2019ll share it with the team.",
+    "comment": "Helpful article, I’ll share it with the team.",
     "author": "George",
-    "date": "2025-05-09"
+    "date": 1746614400000
   },
   {
     "id": 8,
     "newsId": 8,
     "comment": "Excited about the new partnership!",
     "author": "Hanna",
-    "date": "2025-05-08"
+    "date": 1746528000000
   },
   {
     "id": 9,
     "newsId": 9,
     "comment": "Will the webinar be recorded?",
     "author": "Ivan",
-    "date": "2025-05-06"
+    "date": 1746355200000
   },
   {
     "id": 10,
     "newsId": 10,
-    "comment": "Amazing results \u2014 well done to your team.",
+    "comment": "Amazing results — well done to your team.",
     "author": "Julia",
-    "date": "2025-05-05"
+    "date": 1746268800000
   }
 ]

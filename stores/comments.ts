@@ -1,22 +1,16 @@
 import { defineStore } from 'pinia';
 
-interface CommentItem {
-  id: number;
-  newsId: number;
-  comment: string;
-  author: string;
-  date: string;
-}
+import type { ICommentItem } from '@/models/CommentType';
 
 export const useCommentsStore = defineStore('comments', {
   state: () => ({
-    comments: [] as CommentItem[],
+    comments: [] as ICommentItem[],
   }),
 
   actions: {
     async FETCH_ALL_COMMENTS() {
       try {
-        const { data, error } = await useFetch<CommentItem[]>('/api/comments');
+        const { data, error } = await useFetch<ICommentItem[]>('/api/comments');
 
         if (error.value) {
           console.error('Failed to fetch comments:', error.value);

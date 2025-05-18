@@ -5,7 +5,7 @@ import { defineEventHandler } from 'h3';
 export default defineEventHandler(() => {
   try {
     // Construct the full path to the comments.json file inside the 'data' folder
-    const filePath = join(process.cwd(), 'data', 'comments.json');
+    const filePath = join(process.cwd(), 'public', 'data', 'comments.json');
 
     // Read the file content synchronously as utf-8 string
     const rawData = readFileSync(filePath, 'utf-8');
