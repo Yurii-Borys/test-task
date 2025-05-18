@@ -1,7 +1,15 @@
 <script setup lang="ts">
+import mitt from 'mitt';
 import { useAuth } from '@/composables/useAuth';
 
 const { isLogined, logout } = useAuth();
+
+const emitter = mitt();
+provide('emitter', emitter);
+
+onUnmounted(() => {
+  emitter.all.clear();
+});
 </script>
 
 <template>

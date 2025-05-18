@@ -8,6 +8,7 @@ export const useCommentsStore = defineStore('comments', {
   }),
 
   actions: {
+    // Fetch all comments from API endpoint
     async FETCH_ALL_COMMENTS() {
       try {
         const { data, error } = await useFetch<ICommentItem[]>('/api/comments');
@@ -17,12 +18,17 @@ export const useCommentsStore = defineStore('comments', {
           throw new Error('Failed to fetch comments');
         }
 
-        // Обережно присвоюємо, перевіряємо, що data.value існує
         this.comments = data.value ?? [];
         console.log('Comments successfully loaded');
       } catch (err) {
         console.error('Error in FETCH_ALL_COMMENTS:', err);
       }
+    },
+
+    // Add a new comment to the store state
+    ADD_COMMENT(comment: ICommentItem) {
+      this.comments.push(comment);
+      console.log('Add new comment', comment);
     },
   },
 });
