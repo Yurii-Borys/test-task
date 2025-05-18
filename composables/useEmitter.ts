@@ -4,13 +4,17 @@ import type { ICommentItem } from '@/models/CommentType';
 // Define the events interface with event names as keys
 // and payload types as values
 interface Events {
-  'new-comment': ICommentItem; // Payload for 'new-comment' event
+  'new-comment': ICommentItem;
+  error: Error | string; // payload for error event can be Error or string
 }
 
-// Create a typed mitt emitter instance
 const emitter = mitt<Events>();
 
-// Export a function to access the emitter instance
+// Global error handler
+emitter.on('error', (error) => {
+  console.error('Global error caught:', error);
+});
+
 export function useEmitter() {
   return emitter;
 }
